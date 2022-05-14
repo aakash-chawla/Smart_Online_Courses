@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+body {
+  color: #333333;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.80857;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+.header-home {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  height:400px;
+}
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background: #4c5a7d !important;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a .active {
+  background-color: #ddd;
+  color: black;
+}
+.right{
+	float:right;
+}
+
+.all-title-box{
+	background: url(images/banner.jpg)no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+
+
+.first-section .big-tagline a:hover{
+	color: #ffff;
+}
+.first-section .big-tagline a{
+	background: none;
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	color: #ffff;
+	font-weight: 500;
+}
+
+
+.big-tagline{
+	color:#ffff;
+	text-align:left;
+	 vertical-align: middle;
+}
+.hover-btn-new{
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 46px;
+	padding: 0 17px;
+	text-transform: uppercase;
+	position: relative;
+	border: 2px solid #fff;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 2px;
+	 background: #eea412;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Full column */
+.column {   
+  float: left;
+  width: 100%;
+}
+/* content alignment */
+.flex{
+	display:flex;
+	
+}
+
+.col {
+ flex-grow: 1;
+  flex-basis: 50%;
+}
+/* image */
+.img {
+  width: 50%;
+  height:250px;
+  padding:10px;
+  margin:5x;
+}
+.img-full {
+  width:100%;
+  height:auto;
+  padding:10px;
+  margin:5x;
+}
+.img-small {
+  width:80%;
+  height:150px;
+  padding:10px;
+  margin:5x;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.half{
+	width:50%;
+	margin:5px;
+}
+.third{
+	width:33.33%;
+	margin:5px;
+}
+.quarter{
+	width:25%;
+	margin:5px;
+}
+.threethird{
+	width:75%;
+	margin:5px;
+}
+.center{
+	margin: 10px auto;
+	width: 50%;
+	
+}
+.clear-fix{
+	clear:both;
+	
+}
+/* center all text */
+.text-center {
+  text-align:center;
+}
+.details{
+	 font-size:20px;  margin-bottom:40px;
+}
+/* button style */
+.button{
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	border: 1px solid;
+	padding: 12px 30px;
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: .08em;
+	transition: .33s all ease;
+	white-space: normal;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+	background-color: #c19b76;
+	border-color: #c19b76;
+}
+.course-item{
+	background: #ffffff;
+	border: 1px solid #4babb1;
+}
+.course-item{}
+.course-title > h2 {
+    margin: 15px 0;
+    padding: 0px;
+}
+.course-title a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #333333;
+    text-transform: capitalize;
+}
+.course-item:hover .course-title a {
+	color: #eea412;
+}
+.course-br{
+
+	padding: 15px;
+	width:100%;
+}
+.course-meta-bot{
+	
+	border-top: 0px;
+	padding: 15px;
+}
+.course-meta-bot ul{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	text-align: center;
+}
+.course-meta-bot ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	color: #212121;
+	font-size: 11px;
+}
+.course-meta-bot ul li:hover{
+	color: #eea412;
+}
+
+.our-team{
+    text-align: center;
+	margin-bottom: 30px;
+}
+.our-team .team-img{
+    overflow: hidden;
+    position: relative;
+}
+.our-team .team-img img{
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content{
+    padding: 20px 0;
+    background: #f5f7f8;
+    color: #54478a;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+	padding: 0px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #999;
+}
+.our-team:hover .team-content{
+	background: #4babb1;
+}
+.our-team:hover .team-content .title{
+	color: #ffffff;
+}
+.our-team:hover .post{
+	color: #cccccc;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.label{
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	min-height: 50px;
+	padding: 12px 19px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #777;
+	background-image: none;
+	border: 1px solid #c19b76;
+	border-radius: 0;
+	-webkit-appearance: none;
+	transition: .3s ease-in-out;
+	box-shadow: none;
+	border: 1px solid #c19b76;
+}
+
+.input:focus {
+	outline: 0;
+	background: #fff;
+	border-color: #ececee;
+	box-shadow: none;
+}
+
+textarea.input {
+	height: 216px;
+	min-height: 50px;
+	max-height: 367px;
+	resize: vertical;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #4c5a7d;
+  margin-top: 20px;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #ffff;
+}
+
+.footer-links a:hover,
+.footer a:hover {
+    color: #f4f4f4 !important;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+	padding: 5px 0px;
+   
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
